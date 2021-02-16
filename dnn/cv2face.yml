@@ -1,0 +1,6 @@
+name: opencvface
+channels:
+  - conda-forge
+  - defaults
+prefix: /usr/local/anaconda3/envs/opencvface
+

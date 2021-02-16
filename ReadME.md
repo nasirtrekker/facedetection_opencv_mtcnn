@@ -9,6 +9,12 @@ How to use:
 1. Download the this repository and haarcascade_frontalface_default.xml file
 2. Execute python file:
 
+Folders:
+harcascade: scripts for detecting/blurring face using haarcascade
+dnn: scripts for detecting/blurring face using haarcascade
+mtcnn: scripts for detecting/blurring face using haarcascade
+
+Example:
 Detecting face:
 	 - image_facedetect.py --> detect face from image file using OpenCV HaarCascade
 	 - video_facedetect.py --> detect face from video file using OpenCVHaarCascade
