@@ -14,9 +14,9 @@ Detecting face:
 	 - video_facedetect.py --> detect face from video file using OpenCVHaarCascade
 	 - mtcnn_facedetect_image.py-->detect face with Facenets MTCNN
 	 
-Detect and blurring face:
+Detecting and blurring face:
 	- faceblurring.py --> detect face from image file using opencv HaarCascade and detected faces blurred out using a simple pixellation technique
-	- faceblurring_mtcnn_img+vid.py--> detect and blurred face with Facenets MTCNN
+	- faceblurring_mtcnn_img+vid.py--> detecting and blurring face with Facenets MTCNN
 
 
 	 
