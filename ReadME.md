@@ -6,12 +6,18 @@ How to use:
 - execute python scripts as follows:
 
 
-1. Download the this repository and haarcascade_frontalface_default.xml file 
+1. Download the this repository and haarcascade_frontalface_default.xml file
 2. Execute python file:
-	 image_facedetect.py --> detect face from image file using OpenCV HaarCascade
-	 video_facedetect.py --> detect face from video file using OpenCVHaarCascade
-	 faceblurring.py --> detect face from image file using opencv HaarCascade and detected faces blurred out using a simple pixellation technique
-	 mtcnn_facedetect_image.py-->detect face with Facenets MTCNN
+
+Detecting face:
+	 - image_facedetect.py --> detect face from image file using OpenCV HaarCascade
+	 - video_facedetect.py --> detect face from video file using OpenCVHaarCascade
+	 - mtcnn_facedetect_image.py-->detect face with Facenets MTCNN
+	 
+Detect and blurring face:
+	- faceblurring.py --> detect face from image file using opencv HaarCascade and detected faces blurred out using a simple pixellation technique
+	- faceblurring_mtcnn_img+vid.py--> detect and blurred face with Facenets MTCNN
+
 
 	 
 
