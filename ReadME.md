@@ -1,10 +1,16 @@
 ### Face detection with HaarCascade and MTCNN.
 
 How to use:
-1. Download the this repositorie and haarcascade_frontalface_default.xml file 
+- Clone this repo
+- Create new virtulenv with conda: conda env create cv2vision-env.yml
+- execute python scripts as follows:
+
+
+1. Download the this repository and haarcascade_frontalface_default.xml file 
 2. Execute python file:
 	 image_facedetect.py --> detect face from image file using OpenCV HaarCascade
 	 video_facedetect.py --> detect face from video file using OpenCVHaarCascade
+	 faceblurring.py --> detect face from image file using opencv HaarCascade and detected faces blurred out using a simple pixellation technique
 	 mtcnn_facedetect_image.py-->detect face with Facenets MTCNN
 
 	 
